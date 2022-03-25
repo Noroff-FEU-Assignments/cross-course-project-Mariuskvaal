@@ -5,6 +5,7 @@
     <title> quality rainjackets </title>
     <meta name="description" content="This is a page about rainjackets">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -39,12 +40,38 @@
         <form> 
             <fieldset>
                 <legend> Your details </legend> 
-                <input type="text" name="name"
+
+                <label for="name"> Your name </label>
+                <input type="text" name="name" id="name" class="form__input"
+                <label for="phone"> Phone number </label>
+                <input type="tel" name="phone" id="phone" class="form__input"
+                <label for="email"> email </label>
+                <input type="email" name="email" id="email" class="form__input"
+
+
             </fieldset>
 
             <fieldset>
                 <legend> Your purchase </legend> 
             </fieldset>
+
+
+            <form>
+                <fieldset>
+                    
+                    <legend>Your details</legend>
+                    <label for="name">Your name</label>
+                    <input type="text" name="name" id="name" class="form__input">
+                    <label for="phone">Your phone number</label>
+                    <input type="tel" name="phone" id="phone">
+                    <label for="email">Your email address</label>
+                    <input type="email" name="email" id="email">
+
+                </fieldset>
+                <fieldset>
+                    <legend>Your purchase</legend>
+                </fieldset>
+            </form>
         </form>
 
 
