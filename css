@@ -1,5 +1,14 @@
 body {
     font-family: "open sans", Verdana, Geneva, Tahoma, sans-serif
+
+
+}
+.item-floated {
+    position: relative;
+    box-sizing: border-box;
+    width: 1519px;
+    padding-left: 110px;
+    padding-right:110px;
 }
 
 nav,
@@ -39,12 +48,3 @@ nav a {
     display: inline-block
 }
 
-
-img{
-    max-width: 90px;
-    max-height: 90px;
-}
-
-.floated{
-    float: right;
-}
