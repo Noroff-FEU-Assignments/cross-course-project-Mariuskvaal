@@ -1,0 +1,50 @@
+body {
+    font-family: "open sans", Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav,
+#menu-checkbox{
+    display: none
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    background: rgb(44, 44, 44)
+    color: #fff
+}
+
+nav {
+    position: absolute;
+    background: rgb(44, 44, 44)
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: block;
+        position: static;
+    }
+}
+
+nav a {
+    display: inline-block
+}
+
+
+img{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.floated{
+    float: right;
+}
