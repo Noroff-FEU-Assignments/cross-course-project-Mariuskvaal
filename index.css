@@ -48,3 +48,36 @@ nav a {
     display: inline-block
 }
 
+.bilde1, .bilde2, .bilde3{
+    display: block;
+    height: 100px;
+}
+
+.seksjon1, .seksjon2, .seksjon3, .nr1-jakkeclass, .nr2-jakkeclass, .nr3-jakkeclass{
+display: inline-block;
+margin: 0 auto;
+background-color: blue;
+padding: 50px;
+border-color: #f2f261;
+}
+
+akke-seksjon{
+    background-color: lightgray;
+    height: 500px;
+}
+.hikingjacket, .canojacket, .runningjacket {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    border: 5px black;
+}
+
+.front-page-picture {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    content: 100%;
+}
