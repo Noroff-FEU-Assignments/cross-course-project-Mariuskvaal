@@ -61,9 +61,9 @@ padding: 50px;
 border-color: #f2f261;
 }
 
-akke-seksjon{
-    background-color: lightgray;
+.jakke-seksjon{
     height: 500px;
+    float: center;
 }
 .hikingjacket, .canojacket, .runningjacket {
     display: inline-block;
@@ -72,6 +72,8 @@ akke-seksjon{
     padding: 10px 10px 10px 10px;
     margin: 20px;
     border: 5px black;
+    background-color: #efefef;
+    position: static;
 }
 
 .front-page-picture {
@@ -80,4 +82,9 @@ akke-seksjon{
     margin: 0px;
     padding: 0px;
     content: 100%;
+}
+
+.footer {
+    display: inline-block;
+    position: static;
 }
