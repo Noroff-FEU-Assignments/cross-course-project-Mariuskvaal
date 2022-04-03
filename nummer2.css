@@ -1,0 +1,12 @@
+.body {
+    display: grid;
+    background: lightblue;
+    min-height: 100vh;
+    grid-gap: 1em;
+    grid-template-rows: 50px 100px 100px 100px
+
+}
+
+header, main, footer {
+    background: white;
+}
