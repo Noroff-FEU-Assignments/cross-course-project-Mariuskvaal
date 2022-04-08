@@ -21,3 +21,7 @@ main {
     border: 2px solid blue;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.jakke{
+    justify-self: center;
+}
