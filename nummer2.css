@@ -2,12 +2,20 @@ header {
     background-color: black;
     text-align: center;
     color: white;
+    height: 100px;
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
     background-color: black;
     color: #ffffff;
     text-align: center;
+}
+
+footer h2 {
+    text-decoration: underline;
 }
 
 nav a {
@@ -24,4 +32,9 @@ main {
 
 .jakke{
     justify-self: center;
+}
+
+main h3, main a{
+    text-align: center;
+
 }
