@@ -1,12 +1,26 @@
-.body {
-    display: grid;
-    background: lightblue;
-    min-height: 100vh;
-    grid-gap: 1em;
-    grid-template-rows: 50px 100px 100px 100px
-
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
 }
 
-header, main, footer {
-    background: white;
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid red;
+}
+main {
+    display: grid;
+    width: auto;
+    height: 600px;
+    border: 2px solid blue;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20%;
 }
