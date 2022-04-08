@@ -18,9 +18,6 @@ nav a {
 }
 main {
     display: grid;
-    width: auto;
-    height: 600px;
     border: 2px solid blue;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 20%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
