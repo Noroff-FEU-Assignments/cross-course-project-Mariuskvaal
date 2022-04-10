@@ -23,12 +23,6 @@ footer h2 {
     text-decoration: underline;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border: 2px solid rgb(255, 255, 255);
-}
 main {
     display:flex;
     flex-wrap: wrap;
@@ -45,8 +39,14 @@ main h3, main a,{
     text-align: center;
 }
 
-.buttonformenhikingjacket, .buttonforwomenhikingjacket{
+.buttonformenhikingjacket, .buttonforwomenhikingjacket, .buttonformencanojacket, .buttonforwomencanojacket, .buttonformenrunningjacket, .buttonforwomenrunningjacket  {
     justify-content: center;
+    text-decoration: none;
+    border: yellow 2px solid;
+    margin: 5px;
+    background-color: yellow;
+    color: black;
+    font-size: 100%;
 }
 
 body{
@@ -65,4 +65,21 @@ section img{
 .jakke{
     background-color: lightgrey;
     text-align: center;
+}
+
+nav a{
+    border: white 2px solid;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background: white;
+    color: black;
+}
+
+nav a:click{
+    background: white;
 }
