@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, nav, a{
+  font-family: 'Josefin Sans', sans-serif, 'Josefin Slab', serif, verdana; 
+}
+
+p {
+    font-family: 'Montserrat', sans-serif, 'Open Sans', sans-serif, arial;
+}
+
+.header_section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.label_hamburger_menu {
+  justify-self: center;
+  align-self: center;
+  font-size: 30px;
+}
+
+nav {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+
+nav, #menu-checkbox {
+  display:none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+header {
+  position: relative;
+}
+
+.front_page_picture {
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  background-color: rgb(252, 252, 252);
+}
+
+nav a {
+  display: block;
+  color: black;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
