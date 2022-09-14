@@ -3,13 +3,14 @@
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, nav, a{
-  font-family: 'Josefin Sans', sans-serif, 'Josefin Slab', serif, verdana; 
+body{
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif, 'Open Sans', sans-serif, arial;
-}
 
 .logoImage{
   width: 125px;
@@ -28,4 +29,74 @@ p {
 
 .site_navigations ul{
   display:inline-block;
+  list-style-type: none;
+}
+
+.site_navigations ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #555;
+}
+p{
+  color: #555;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap; wrap;
+  justify-content: space-around;
+}
+
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: padding 25px 0;
+}
+
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.btn:hover{
+  background-color: #563434;
+}
+
+.header{
+  background: radial-gradient(#fff,#ffd6d6)
+}
+
+.header .row{
+  margin-top:70px;
+}
+
+.fa-solid.fa-cart-shopping{
+  font-size: 20px;
 }
