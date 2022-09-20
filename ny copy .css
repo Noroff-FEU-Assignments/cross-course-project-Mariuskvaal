@@ -54,7 +54,6 @@ p{
 
 .row{
   display: flex;
-  align-items: center;
   flex-wrap; wrap;
   justify-content: space-around;
 }
@@ -66,7 +65,7 @@ p{
 
 .col-2 img{
   max-width: 100%;
-  padding: 50px 0;
+  
 }
 
 .col-2 h1{
@@ -194,6 +193,7 @@ h4{
 
 .footer-col1{
   flex-basis: 30%;
+  text-align: center;
 }
 
 .footer-col2{
@@ -213,7 +213,7 @@ ul{
 .app-icons{
   font-size: 30px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .flower_icon{
