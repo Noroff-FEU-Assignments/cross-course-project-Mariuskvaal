@@ -170,3 +170,60 @@ h4{
 .col-4:hover{
   transform: translateY(-5px);
 }
+
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+
+.footer p{
+  color: #8a8a8a;
+}
+
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col1{
+  flex-basis: 30%;
+}
+
+.footer-col2{
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col3, .footer-col4{
+  flex-basis: 12%;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.app-icons{
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flower_icon{
+  font-size: 30px;
+}
+
+.app-icon-google, .app-icon-ios, .flower_icon{
+  padding: 20px;
+}
+
+.Copyrigth{
+  text-align: center;
+}
