@@ -228,3 +228,57 @@ ul{
 .Copyrigth{
   text-align: center;
 }
+
+.fa-solid.fa-bars{
+  display: none;
+}
+
+/*
+MEDIA QUERY FOR MENU ---------
+*/
+
+@media only screen and (max-width: 800px) {
+
+  .site_navigations ul{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+  }
+
+  .site_navigations ul li {
+    display: none;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .site_navigations ul li a{
+    color: white;
+    display: block;
+  }
+
+  .fa-solid.fa-bars{
+    display: inline;
+    font-size: 25px;
+  }
+
+  .fa-solid.fa-cart-shopping{
+    font-size: 25px;
+    padding-right: 10px;
+  }
+
+  .shopping_icon a{
+    width: 50px;
+    height: 50px;
+  }
+
+  .site_navigations ul li
+
+
+
+
+
+}
+
