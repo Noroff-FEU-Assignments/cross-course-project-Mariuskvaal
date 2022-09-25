@@ -274,7 +274,13 @@ MEDIA QUERY FOR MENU ---------
     height: 50px;
   }
 
-  .site_navigations ul li
+  .site_navigations ul li {
+    display: block;
+  }
+
+  .Hamburger_menu{
+    max-height: 0px;
+  }
 
 
 
