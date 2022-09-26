@@ -1,3 +1,13 @@
+
+const hamburger = document.querySelector(".Hamburger_menu");
+const navMenu = document.querySelector(".site_navigations ul li");
+
+hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+})
+
+
+/*
 const menuItems = document.querySelector(".Hamburger_menu");
 
 menuItems.style.dis  play: "none";
@@ -12,4 +22,5 @@ function menutoggle () {
         menuItems.style.maxHeight = "0px"
     }
 }
+*/
 
