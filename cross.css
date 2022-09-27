@@ -20,10 +20,16 @@ p {
         align-items: center;
         justify-content: space-between;
         background-color: rgb(226, 226, 226);
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     input{
         display: none;
+    }
+
+    .hamburger_menu_section{
+        font-size: 30px;
     }
 
     .navigation{
