@@ -1,10 +1,6 @@
+document.getElementById("label_ID").onclick = function() {myFunction()};
 
-const hamburger = document.querySelector(".Hamburger_menu");
-const navMenu = document.querySelector(".site_navigations ul li");
-
-hamburger.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-})
+document.getElementById("Navigaiton_id").classList.toggle("show");
 
 
 /*

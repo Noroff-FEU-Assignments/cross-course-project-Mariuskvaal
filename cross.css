@@ -20,27 +20,32 @@ p {
         align-items: center;
         justify-content: space-between;
         background-color: rgb(226, 226, 226);
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     input{
         display: none;
     }
 
-    .hamburger_menu_section{
+    .fa-solid.fa-bars{
         font-size: 30px;
     }
 
-    .navigation{
+    .mobile-image-source{
+        height: 100px;
+    }
+
+    nav {
         display: none;
     }
 
-    .logo_box{
-        height: 100px;
+    nav a {
+        display: block;
     }
-    .mobile-image-source{
-        height: 100px;
+
+    #hamburger-menu:checked ~ nav {
+        display: block;
     }
 
 
