@@ -40,13 +40,45 @@ p {
         display: none;
     }
 
-    nav a {
-        display: block;
-    }
+   
 
     #hamburger-menu:checked ~ nav {
-        display: block;
+        display:block;
+        position: absolute;
+        right: 0%;
+        top: 103.5px;
+        background-color: rgb(226, 226, 226);
+        width: 100%;
+        text-align: center;
     }
+    
+     nav a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+    }
+
+    .front-page{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+    }
+
+
+    .front-page img{
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    .front-page button {
+        background-color: red;
+        position: absolute;
+        margin-left: 50%;
+    }
+
+
 
 
     
