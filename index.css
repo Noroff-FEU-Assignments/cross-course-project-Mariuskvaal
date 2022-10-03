@@ -1,0 +1,77 @@
+body {
+    font-family: "open sans", Verdana, Geneva, Tahoma, sans-serif
+
+
+}
+.item-floated {
+    position: relative;
+    box-sizing: border-box;
+    width: 1519px;
+    padding-left: 110px;
+    padding-right:110px;
+}
+
+nav,
+#menu-checkbox{
+    display: none
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    background: rgb(44, 44, 44)
+    color: #fff
+}
+
+nav {
+    position: absolute;
+    background: rgb(44, 44, 44)
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: block;
+        position: static;
+    }
+}
+
+nav a {
+    display: inline-block
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    padding: 50px;
+}
+.hikingjacket, .canojacket, .runningjacket{
+    background-color: white;
+    padding: 20px;
+    border: 5px black;
+    
+}
+.jakkeheading, .link_to_jackets, .text_under_picture{
+    text-align: center;
+}
+
+.link_to_jackets{
+    display: block
+    
+}
+.h2jacketheading{
+    background-color: lightgrey;
+}
+.overskriften{
+    text-align: center;
+
+}

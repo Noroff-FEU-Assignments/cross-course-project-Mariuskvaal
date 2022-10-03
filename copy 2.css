@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, nav, a{
+  font-family: 'Josefin Sans', sans-serif, 'Josefin Slab', serif, verdana; 
+}
+
+p {
+    font-family: 'Montserrat', sans-serif, 'Open Sans', sans-serif, arial;
+}

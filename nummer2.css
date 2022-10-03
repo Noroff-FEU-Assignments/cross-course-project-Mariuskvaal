@@ -1,0 +1,85 @@
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: auto;
+    padding: 25px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+footer h2 {
+    text-decoration: underline;
+}
+
+main {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.jakke{
+    margin: 5px;
+    padding: 10px;
+}
+
+main h3, main a,{
+    text-align: center;
+}
+
+.buttonformenhikingjacket, .buttonforwomenhikingjacket, .buttonformencanojacket, .buttonforwomencanojacket, .buttonformenrunningjacket, .buttonforwomenrunningjacket  {
+    justify-content: center;
+    text-decoration: none;
+    border: yellow 2px solid;
+    margin: 5px;
+    background-color: yellow;
+    color: black;
+    font-size: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+section img{
+    width: 100%;
+}
+
+.jakke{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+nav a{
+    border: white 2px solid;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background: white;
+    color: black;
+}
+
+nav a:click{
+    background: white;
+}
