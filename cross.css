@@ -186,6 +186,15 @@ p {
         color: #777171;
     }
 
+    .copyright{
+        background-color: black;
+    }
+
+    .copyright p{
+        color: white;
+        text-align: center;
+    }
+
 
 
     
