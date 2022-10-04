@@ -136,6 +136,36 @@ p {
         padding: 10px;
     }
 
+    .main-container{
+        max-width: 300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .title-for-main-container{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .row-inside-main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-for-main-container{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .products-columns img{
+        width: 100%;
+    }
+
+
+
+
     .footer_section{
         background-color: black;
         padding-top: 30px;
@@ -188,6 +218,7 @@ p {
 
     .copyright{
         background-color: black;
+        margin-top: 20px;
     }
 
     .copyright p{
