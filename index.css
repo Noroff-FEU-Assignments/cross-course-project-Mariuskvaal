@@ -333,7 +333,6 @@ p {
     .row-for-product-page{
         display: flex;
         justify-content: space-evenly;
-        gap: 50px;
     }
 
     .col-2-for-product-page, .column-for-product-page{
@@ -342,8 +341,12 @@ p {
         gap: 20px;
         align-self: center;
         background-color: rgb(216, 214, 214);
-        padding: 20px;
+        padding: 10px;
         border-radius: 10%;
+    }
+
+    .col-2-for-product-page{
+        max-width: 400px;
     }
 
     .btn-for-product-page{
@@ -362,12 +365,42 @@ p {
         padding-bottom: 70px;
     }
 
+    .column-for-product-page{
+        max-width: 500px;
+    }
+
+    .col-2-for-product-page select{
+        max-width: 200px;
+    }
+
+    .col-2-for-product-page input {
+        max-width: 100px;
+    }
+
+    .small-img-col img{
+        width: 100px;
+        height: 100px;
+        object-fit: scale-down;
+    }
+
+    .small-img-row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .small-img-col{
+        flex-basis: 24%;
+        cursor: pointer;
+    }
+
 
     /* 
     --------------------------------------------------------
     PRODUCT DETAIL PAGE DONE
     --------------------------------------------------------
     */
+
+/* <!------- MEDIA QUERY -----!>  */
 
 
 @media(max-width: 700px){
@@ -710,6 +743,15 @@ p {
         border-radius: 15px;
         text-align: center;
         font-size: 20px;
+    }
+
+    .col-2-for-product-page select{
+        max-width: 200px;
+    }
+
+    .col-2-for-product-page input {
+        display: block;
+        max-width: 50px;
     }
 
 
