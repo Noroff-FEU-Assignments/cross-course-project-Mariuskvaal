@@ -1,12 +1,11 @@
 
-// Picture swapping toggle // 
+var ProductImg = document.querySelector("#ProductImg");
+
+var smallImg = document.querySelector(".smallImg");
 
 
-var productImg = document.getElementById("productImg");
 
-var smallImg = document.getElementsByClassName("small-img");
 
-smallImg[0].oncli
 
 
 
