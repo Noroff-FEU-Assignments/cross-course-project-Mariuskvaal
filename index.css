@@ -45,6 +45,10 @@ p {
         align-self: center;
     }
 
+    .shopping-cart-ikon-a{
+        color: black;
+    }
+
     nav{
         align-self: center;
     }
@@ -112,7 +116,7 @@ p {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 65vh;
         padding: auto;
     }
 
@@ -413,6 +417,7 @@ p {
     */
 
     .small-container-for-cart{
+        height: 50vh;
         margin: 80px auto;
     }
 
@@ -623,7 +628,37 @@ p {
         color: red;
     }
 
-    
+
+
+    .form-control label{
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+
+    .form-control input{
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .form-control input:focus {
+        outline: 0;
+        border-color: #777;
+    }
+
+    .form-control.success input {
+        border-color: #2ecc71;
+    }
+
+    .form-control.error input {
+        border-color: #e74c3c;
+    }
+
+
 
 
 
@@ -763,7 +798,7 @@ p {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 70vh;
     }
 
     .row{
@@ -998,356 +1033,3 @@ p {
     PRODUCT DETAIL PAGE DONE
     --------------------------------------------------------
     */
-
-
-    
-    /*
-    nav {
-        display: none;
-    }
-
-    nav img{
-        display: none;
-    }
-
-    label{
-        display: block;
-        color: black;
-        text-align: center;
-        font-size: 50px; 
-        position: sticky;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        align-self: center;
-    }
-
-    #hamburger-menuu{
-        display: none;
-    }
-
-    nav ul li{
-        display: block;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #hamburger-menuu:checked ~ nav {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        z-index: 99999;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        justify-content: start;
-        align-items: center;
-        background-image:url(images/Dinosaur\ ut\ ved\ elv\ komprimert.jpg);
-        background-size: cover;
-    }
-
-    nav ul li a{
-        font-size: 30px;
-    }
-
-    nav ul li{
-        padding: 20px;
-        background-color: black;
-        width: 200px;
-    }
-
-    a.mobile-image{
-        display: inline;
-        justify-self: center;
-        align-self: center;
-    }
-
-    img.mobile-image-source{
-        width: 70px;
-    }
-
-    .Welcome-content{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 300px 1fr auto;
-    }
-
-    .Welcome-content h2{
-        justify-self: center;
-        align-self: center;
-        border-bottom: 2px solid black;
-        padding-left: 20%;
-        padding-right: 20%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-size: 40px;
- }
-
-    .Welcome-content img{
-        width: 100%;
-        height:80%;
-        border-radius: 10%;
-        justify-self: center;
-        align-self: center;
-
-    }
-
-    .Welcome-content p{
-
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        align-self: center;
-        text-align: center;
-    }
-
-    .what_to_see_inn_the_museum_div{
-        justify-self: center;
-        align-self: center;
-        padding:15px;
-        background-color: #bce9ff;
-        border-radius: 10px;
-        margin: 20px;
-        color: black;
-    }
-
-    .what_to_see_in_the_museum_a_href{
-        color: black;
-        font-weight: bold;
-    }
-
-    .visit_us_heading_h2{
-        width: 100%;
-        margin: auto;
-        text-align: center;
-        padding-top: 10px;
-        background-color: rgb(235, 235, 235);
-    }
-
-    .visit_us_section{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        background-color: rgb(235, 235, 235);
-    }
-
-    .opening_hours, .Location, .Admission{
-        background-color: white;
-        border-radius: 10px;
-        padding: 10px 12px;
-        box-sizing: border-box;
-        width: 400px;
-        height: 250px; 
-        justify-content: center;
-        align-content: center; 
-        margin: 10px;
-        border-radius: 10px;
-        
-    }
-
-    .opening_hours h3, .Location h3, .Admission h3 {
-        text-align: center;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-
-    .opening_hours p {
-        text-align: center;
-    }
-
-    .Location p {
-        text-align: center;
-    }
-
-    .Admission p{
-        text-align: center;
-    }
-
-    .entrance_is_free{
-        text-decoration: underline;
-        margin-bottom: 10px;
-    }
-
-    .Events_heading{
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 30px;
-    }
-    
-    .events {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .event_box {
-        max-width: 300px;
-        padding: 20px;
-        margin: 20px;
-    }
-    
-    .event_box {
-        text-align: center;
-        padding: 20px;
-        background-color: lightgrey;
-        border-radius: 10px;
-    }
-    
-    
-    .event_box img{
-        display: block;
-        width: 100%;
-        max-height: 200px;
-    }
-    
-    .event_box h3 {
-        padding-bottom: 20px;
-    }
-    
-    .event_box p {
-        padding-top: 20px;
-    }
-    
-    
-    .wrapper-hero-btn_events{
-        text-align: center;
-        width: 100%;
-        top: 70%;
-        margin-top: 20px;
-        margin-bottom:20px;
-    }
-    
-    .hero-btn-event {
-        display: inline-block;
-        color: rgb(0, 0, 0);
-        padding: 20px 50px;
-        font-size: 16px;
-        font-weight: bold;
-        background-color: #00FF88;
-        border-radius: 20px;
-        padding: 20px;
-        width: 50%;
-    }
-    
-    .See_heading{
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 30px;
-    }
-    
-    .things_to_see{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .event_box {
-        max-width: 300px;
-        padding: 20px;
-        margin: 20px;
-    }
-    
-    .event_box {
-        text-align: center;
-        padding: 20px;
-        background-color: lightgrey;
-        border-radius: 10px;
-    }
-    
-    
-    .event_box img{
-        display: block;
-        width: 100%;
-        max-height: 200px;
-    }
-    
-    .event_box h3 {
-        padding-bottom: 20px;
-    }
-    
-    .event_box p {
-        padding-top: 20px;
-    }
-    
-    
-    .wrapper-hero-btn_events{
-        text-align: center;
-        width: 100%;
-        top: 70%;
-        margin-top: 20px;
-        margin-bottom:20px;
-    }
-    
-    .hero-btn-event {
-        display: inline-block;
-        color: rgb(0, 0, 0);
-        padding: 20px 50px;
-        font-size: 16px;
-        font-weight: bold;
-        background-color: #00FF88;
-        border-radius: 20px;
-        padding: 20px;
-        width: 50%;
-    }
- 
-    .footer{        
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        background-color: black;
-        color: white;
-        margin-top: 10px;
-    }
-
-    .box{
-        min-width: 250px;
-        align-self: center;
-        justify-self: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .heading_about_us{
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 30px;
-    
-    }
-    .about_us{
-        display: flex; 
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .img_about_us{
-        flex-basis: 80%; 
-        margin: 20px;
-    }
-    
-    .image_of_employes{
-        width: 100%;
-       
-    }
-    
-    .p_about_us{
-        align-self: center;
-    }
-    
-    .p_about_us p{
-        background-color: lightgray;
-        margin-right: 20px;
-        margin-left: 20px;
-        padding: 10px;
-        border-radius: 20px;
-        align-self: center;
-    }

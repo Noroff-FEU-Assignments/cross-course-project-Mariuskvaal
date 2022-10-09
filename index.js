@@ -1,71 +1,36 @@
-alert("this is an alert")
+const form = document.querySelector("form");
+const namee = document.getElementById("username");
+const phone = document.getElementById("phoneNumber");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
 
+    form.addEventListener("submit", e => {
+        e.preventDefault();
 
-let ProductImg = document.getElementById("ProductImg");
+        checkInputs();
 
-let smallImg = document.getElementsByClassName("smallImg");
+    });
 
-smallImg[0].onclick = function() {
-    ProductImg.src = smallImg[0].src;
-
-}
-
-smallImg[1].onclick = function() {
-    ProductImg.src = smallImg[1].src;
-
-}
-
-smallImg[2].onclick = function() {
-    ProductImg.src = smallImg[2].src;
-}
-
-smallImg[3].onclick = function() {
-    ProductImg.src = smallImg[3].src;
-}
-
-
-
-
-var nameError = document.getElementById("name-error");
-var phoneError = document.getElementById("phone-error");
-var emailError = document.getElementById("email-error");
-var messageError = document.getElementById("message-error");
-var submitError = document.getElementById("submit-error");
-
-function validateName(){
-    var name = document.getElementById("contact-name").value;
-
-    if(name.length == 0){
-        nameError.innerHTML = "name is required";
-        return false;
+    function checkInputs(){
+        const nameeValue = namee.value.trim();
+        const phoneValue = phone.value.trim();
+        const emailValue = email.value.trim();
+        const messageValue = message.value.trim();
     }
-    if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
-        nameError.innerHTML = "write full name";
-        return false;
+
+    if(nameeValue === "") {
+        setErrorFor(namee, "Name cannot be blank");
+    } else {
+        setSuccessFor(namee);
     }
-    nameError.innerHTML = "valid";
-    return true;
-};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    if(emailValue === "") {
+        setErrorFor(email, "email cannot be blank");
+    } else if(!isEmail(emailValue)) {
+        setErrorFor(email, "not a valid email");
+    } else {
+        setSuccessFor(email);
+    }
 
 
 
@@ -160,4 +125,5 @@ const validateInputs = () => {
     } else if (password2Value !== passwordValue) {
         setError(password2    )
     }
-};
+}
+*/

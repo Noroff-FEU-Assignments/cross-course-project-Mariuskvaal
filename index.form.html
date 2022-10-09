@@ -35,7 +35,7 @@
 
    <div class="logo_box">
 
-    <img class="mobile-image-source" src="images/logo i skoleprosjekt (300 × 300 px)xx (3) (4).png" alt="logo for Rainydays">
+    <a href="index.html" class="navigarion-logo-a"><img class="mobile-image-source" src="images/logo i skoleprosjekt (300 × 300 px)xx (3) (4).png" alt="logo for Rainydays"></a>
 
    </div>
 
@@ -50,19 +50,20 @@
 
 
 <nav>
-                   <a href="index.html">HOME</a>
-                   <a href="index.products.html">PRODUCTS</a>
-                   <a href="index.product-page.html">Prooduct page</a>
-                   <a href="index.cart.html">CART</a>
+    <a href="index.html">HOME</a>
+    <a href="index.products.html">PRODUCTS</a>
+    <a href="index.product-page.html">PRODUCT PAGE
+    </a>
+    <a href="index.form.html">FORM
+    </a>
 
 </nav>
 
-<i class="fa-solid fa-cart-shopping"></i>
+<a class="shopping-cart-ikon-a" href="index.cart.html"> <i class="fa-solid fa-cart-shopping"></i> </a>
 
 
 </div>
 </div>
-
 
 
 
@@ -71,27 +72,27 @@
     <form>
 
     <div class="input-group">
-        <label> Full Name </label>
-        <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
-        <span id="name-error"> </span>
+        <label for="name"> Full Name </label>
+        <input type="text" placeholder="Enter your name" id="name">
+        <small> Error message </small>
     </div>
 
     <div class="input-group">
-        <label> Phone Number </label>
-        <input type="tel" placeholder=" 93 81 98 10">
-        <span id="phone-error"> </span>
+        <label for="fullName"> Phone Number </label>
+        <input type="tel" placeholder=" 93 81 98 10" id="phoneNumber">
+        <small> Error Message </small>
     </div>
 
     <div class="input-group">
-        <label> Email </label>
-        <input type="email" placeholder=" Enter your email">
-        <span id="email-error"> </span>
+        <label for="fullName"> Email </label>
+        <input type="email" placeholder=" Enter your email" id="email">
+        <small> Error Message </small>
     </div>
 
     <div class="input-group">
-        <label> Your Message </label>
-        <textarea rows="5" placeholder="Enter your message"></textarea>
-        <span id="message-error"> </span>
+        <label for="fullName"> Your Message </label>
+        <textarea rows="5" placeholder="Enter your message" id="message"></textarea>
+        <small> Error Message </small>
     </div>
 
     <button> Submit </button>
@@ -100,10 +101,6 @@
 </div>
 
 </form>
-
-
-
-
 
 
 <footer> 
@@ -159,7 +156,7 @@
 
 </footer>
 
-    <script src="index.js"></script>
+<script src="index.js"></script>
 
 </body>
 
