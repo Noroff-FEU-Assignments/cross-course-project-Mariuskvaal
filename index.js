@@ -1,3 +1,5 @@
+alert("this is an alert")
+
 
 let ProductImg = document.getElementById("ProductImg");
 
@@ -20,7 +22,6 @@ smallImg[2].onclick = function() {
 smallImg[3].onclick = function() {
     ProductImg.src = smallImg[3].src;
 }
-
 
 
 
