@@ -325,6 +325,12 @@ p {
         width: 100%;
     }
 
+    .product.detail.picture{
+        width: 100%;
+    }
+
+    .product.detail.picture
+
     /* 
     --------------------------------------------------------
     PRODUCT PAGE DONE
@@ -1046,3 +1052,15 @@ p {
     PRODUCT DETAIL PAGE DONE
     --------------------------------------------------------
     */
+
+    .product.detail.image{
+        width: 100%;
+    }
+
+    #product.details.page{
+        max-width: 300px;
+    }
+
+    #title.on.product.page{
+        text-align: center;
+    }
