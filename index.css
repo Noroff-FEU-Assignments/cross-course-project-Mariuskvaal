@@ -312,6 +312,10 @@ p {
         padding: 5px;
     }
 
+    .products{
+        display: flex;
+    }
+
     /* 
     --------------------------------------------------------
     PRODUCT PAGE DONE
