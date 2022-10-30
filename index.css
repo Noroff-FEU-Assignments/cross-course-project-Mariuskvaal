@@ -313,7 +313,16 @@ p {
     }
 
     .products{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .product{
+        border: 1px solid rgb(170, 170, 189);
+    }
+
+    .product img{
+        width: 100%;
     }
 
     /* 
