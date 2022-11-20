@@ -1,4 +1,4 @@
-const url = "https://bigflowerpower.online/wp-json/wc/store/products";
+const url = "https://taktilbehor.com/wp-json/wp/v2/posts";
 const productContainer = document.querySelector(".products");
 
 async function getProducts(){
@@ -18,9 +18,7 @@ function createHTML(products){
     products.forEach(function(product){
         console.log(product)
         productContainer.innerHTML += 
-            `<a href="index.product-details.html?id=${product.id}" class="product">
-                <h3>${product.name}</h3>
-                <img src="${product.images[0].src}" alt="${product.name}">              
+            `<a href="index.product-details.html?id=${post.id}" class="product">            
             </a>`;
     })
 }
