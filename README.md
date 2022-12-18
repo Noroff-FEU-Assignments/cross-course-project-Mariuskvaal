@@ -9,6 +9,7 @@ Includes four sides.
 - Products
 - Product Page 
 - Contact Form
+- Shopping 
 
 ## Built With
 
