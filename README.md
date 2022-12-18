@@ -1,9 +1,5 @@
 # RAINYDAYS.COM
 
-(https://rainydaysnoroff.netlify.app/)
-
-"images/rainy days screenshot.jpg"
-
 ## Description
 
 Online store where you can buy rainjackets.
