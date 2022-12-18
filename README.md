@@ -41,8 +41,6 @@ There is nothing special you need to do when running the app.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
 [My Tiktok page](https://www.tiktok.com/@marius_kvaal?lang=en)
 
 [My LinkedIn page](https://www.linkedin.com/in/marius-kv%C3%A5l-264b04181/)
