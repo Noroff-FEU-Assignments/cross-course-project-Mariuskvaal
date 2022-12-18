@@ -1,6 +1,8 @@
 # RAINYDAYS.COM
 
-![image](https://rainydaysnoroff.netlify.app/)
+(https://rainydaysnoroff.netlify.app/)
+
+"images/rainy days screenshot.jpg"
 
 ## Description
 
